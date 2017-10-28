@@ -174,9 +174,9 @@ function startGame() {
         }
 
         if (cellsArray[0].dataset.inside && cellsArray[1].dataset.inside && cellsArray[2].dataset.inside && cellsArray[3].dataset.inside && cellsArray[4].dataset.inside && cellsArray[5].dataset.inside && cellsArray[6].dataset.inside && cellsArray[7].dataset.inside && cellsArray[8].dataset.inside) {
-            if (stageOfWinning==0) {
+
                 document.getElementById("titleBlock").innerText = "NOBODY WINS ";
-                stopGame();return;}  }
+                stopGame();return;}
     }
 
     function startClear() {
